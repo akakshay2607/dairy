@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,kivymd==1.1.1,pillow,docutils,Kivy-Garden,pygments,numpy,dateutil,pytz,tzdata,certifi, idna, urllib3, chardet,peewee,appdirs,BeautifulSoup4,frozendict,multitasking
+requirements = python3,kivy,kivymd==1.1.1,pillow,docutils,Kivy-Garden,pygments,dateutil,sqlite3,pypiwin32
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -75,7 +75,7 @@ orientation = portrait
 # author = © Copyright Info
 
 # Kivy version to use
-osx.kivy_version = 2.2.0
+osx.kivy_version = 2.3.0
 
 #
 # Android specific
